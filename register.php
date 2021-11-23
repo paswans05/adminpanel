@@ -50,11 +50,11 @@
 							<form action="index.html">
 								<div class="form-group">
 									<label>Email</label>
-									<input class="form-control" type="text">
+									<input class="form-control" type="text" name="email">
 								</div>
 								<div class="form-group">
 									<label>Password</label>
-									<input class="form-control" type="password">
+									<input class="form-control" type="password" name="password">
 								</div>
 								<div class="form-group">
 									<label>Repeat Password</label>
