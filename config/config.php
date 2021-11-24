@@ -7,3 +7,4 @@
    else{
            echo "Database not connected";
    }
+   ?>
