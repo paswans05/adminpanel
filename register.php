@@ -1,4 +1,24 @@
 <?php include('config/config.php'); ?>
+<?php
+  extract($_POST);
+  if(isset($submit)) {
+	 $email = $_POST['email'];
+	 $password = sha1($_POST['password']);
+	 $conf_pass = sha1($_POST['conf_pass']);
+	 if ($password===$conf_pass) {
+		 if (mysqli_query($conn,"insert into register(email,password,conf_pass) values('$email','$password','$conf_pass')")) {
+			 header("location:index.php");
+		 }
+		 else{
+			 echo "query wrong";
+		 }
+	 }
+	 else{
+		 echo "Password is Not Matched";
+	 }
+ }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,7 +28,7 @@
 		<meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
         <meta name="author" content="Dreamguys - Bootstrap Admin Template">
         <meta name="robots" content="noindex, nofollow">
-        <title>Register - HRMS admin template</title>
+        <title>Register - Rakesh limited</title>
 		
 		<!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -48,7 +68,7 @@
 							<p class="account-subtitle">Access to our dashboard</p>
 							
 							<!-- Account Form -->
-							<form action="index.html">
+							<form action="" method="POST" enctype="multipart/form-data">
 								<div class="form-group">
 									<label>Email</label>
 									<input class="form-control" type="text" name="email">
@@ -59,10 +79,10 @@
 								</div>
 								<div class="form-group">
 									<label>Repeat Password</label>
-									<input class="form-control" type="password">
+									<input class="form-control" type="password" name="conf_pass">
 								</div>
 								<div class="form-group text-center">
-									<button class="btn btn-primary account-btn" type="submit">Register</button>
+									<button class="btn btn-primary account-btn" type="submit" name="submit">Register</button>
 								</div>
 								<div class="account-footer">
 									<p>Already have an account? <a href="login.html">Login</a></p>
@@ -88,5 +108,3 @@
 		
     </body>
 </html>
-<?php
-
