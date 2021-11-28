@@ -85,7 +85,7 @@
 									<button class="btn btn-primary account-btn" type="submit" name="submit">Register</button>
 								</div>
 								<div class="account-footer">
-									<p>Already have an account? <a href="login.html">Login</a></p>
+									<p>Already have an account? <a href="index.php">Login</a></p>
 								</div>
 							</form>
 							<!-- /Account Form -->
