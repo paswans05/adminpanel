@@ -14,7 +14,7 @@
 			
 			<!-- Sidebar -->
             <div class="sidebar" id="sidebar">
-                <?php include('include/sidebar.php'); ?>s
+                <?php include('include/sidebar.php'); ?>
             </div>
 			<!-- /Sidebar -->
 			
