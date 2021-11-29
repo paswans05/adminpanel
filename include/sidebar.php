@@ -50,25 +50,6 @@
 								<span>Administration</span>
 							</li>
 							<li> 
-								<a href="assets.html"><i class="la la-object-ungroup"></i> <span>Assets</span></a>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-briefcase"></i> <span> Jobs </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="jobs.html"> Manage Jobs </a></li>
-									<li><a href="job-applicants.html"> Applied Candidates </a></li>
-								</ul>
-							</li>
-							<li> 
-								<a href="knowledgebase.html"><i class="la la-question"></i> <span>Knowledgebase</span></a>
-							</li>
-							<li> 
-								<a href="activities.html"><i class="la la-bell"></i> <span>Activities</span></a>
-							</li>
-							<li> 
-								<a href="users.html"><i class="la la-user-plus"></i> <span>Users</span></a>
-							</li>
-							<li> 
 								<a href="settings.html"><i class="la la-cog"></i> <span>Settings</span></a>
 							</li>
 							<li class="submenu">
