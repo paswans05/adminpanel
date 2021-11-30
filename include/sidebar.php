@@ -11,56 +11,19 @@
 								</ul>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="la la-cube"></i> <span> Apps</span> <span class="menu-arrow"></span></a>
+								<a href="#"><i class="la la-file"></i> <span>Category</span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
-									<li><a href="chat.html">Chat</a></li>
-									<li class="submenu">
-										<a href="#"><span> Calls</span> <span class="menu-arrow"></span></a>
-										<ul style="display: none;">
-											<li><a href="voice-call.html">Voice Call</a></li>
-											<li><a href="video-call.html">Video Call</a></li>
-											<li><a href="outgoing-call.html">Outgoing Call</a></li>
-											<li><a href="incoming-call.html">Incoming Call</a></li>
-										</ul>
-									</li>
-									<li><a href="events.html">Calendar</a></li>
-									<li><a href="contacts.html">Contacts</a></li>
-									<li><a href="inbox.html">Email</a></li>
-									<li><a href="file-manager.html">File Manager</a></li>
+									<li><a class="" href="?con=dashboard">Category Management</a></li>
 								</ul>
-							</li>
-							<li> 
-								<a href="clients.html"><i class="la la-users"></i> <span>Clients</span></a>
-							</li>
-							<li class="menu-title"> 
-								<span>HR</span>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="la la-files-o"></i> <span> Accounts </span> <span class="menu-arrow"></span></a>
+								<a href="#"><i class="la la-book"></i> <span>News</span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
-									<li><a href="estimates.html">Estimates</a></li>
-									<li><a href="invoices.html">Invoices</a></li>
-									<li><a href="payments.html">Payments</a></li>
-									<li><a href="expenses.html">Expenses</a></li>
-									<li><a href="provident-fund.html">Provident Fund</a></li>
-									<li><a href="taxes.html">Taxes</a></li>
+									<li><a class="" href="?con=dashboard">News Management</a></li>
 								</ul>
-							</li>
-							<li class="menu-title"> 
-								<span>Administration</span>
 							</li>
 							<li> 
 								<a href="settings.html"><i class="la la-cog"></i> <span>Settings</span></a>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-key"></i> <span> Authentication </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="login.html"> Login </a></li>
-									<li><a href="register.html"> Register </a></li>
-									<li><a href="forgot-password.html"> Forgot Password </a></li>
-									<li><a href="otp.html"> OTP </a></li>
-									<li><a href="lock-screen.html"> Lock Screen </a></li>
-								</ul>
 							</li>
 						</ul>
 					</div>
