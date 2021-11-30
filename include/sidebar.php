@@ -13,17 +13,17 @@
 							<li class="submenu">
 								<a href="#"><i class="la la-file"></i> <span>Category</span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
-									<li><a class="" href="?con=dashboard">Category Management</a></li>
+									<li><a class="" href="category.php">Category Management</a></li>
 								</ul>
 							</li>
 							<li class="submenu">
 								<a href="#"><i class="la la-book"></i> <span>News</span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
-									<li><a class="" href="?con=dashboard">News Management</a></li>
+									<li><a class="" href="news.php">News Management</a></li>
 								</ul>
 							</li>
 							<li> 
-								<a href="settings.html"><i class="la la-cog"></i> <span>Settings</span></a>
+								<a href="#"><i class="la la-cog"></i> <span>Settings</span></a>
 							</li>
 						</ul>
 					</div>
